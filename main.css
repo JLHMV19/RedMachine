@@ -1,51 +1,70 @@
-:root {
-    --green: #f06f30;
-    --white: #FFFFFF;
-    --black: #000000;
-  }
-
-  body {
-    background: var(--bg);
-    color: var(--fontColor);
-    font-family: helvetica;
-  }
-
-
-li {
-    list-style: circle;
-  }
-  
-  .list {
-    list-style: square;
-  }
-  
-
-  .light-theme {
-    color: #000000;
-    background: #f06f30;
-  }
-
-  .light-theme {
-    --bg: var(--green);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-  }
-
-  .dark-theme {
-    --bg: var(--black);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
-  }
-  .btn {
-    position: absolute;
-  top: 150px;
-  left: 130px;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border: none;
-  color: var(--btnFontColor);
-  background-color: var(--btnBg);
-  }
+.3_11 { 
+	overflow:hidden;
+}
+.e3_11 { 
+	width:1200px;
+	height:667px;
+	position:absolute;
+}
+.e1_4 { 
+	width:640px;
+	height:360px;
+	position:absolute;
+	left:281px;
+	top:137px;
+	background-image:url(images/saul_2000_1.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.e3_9 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:215px;
+	height:65px;
+	position:absolute;
+	left:139px;
+	top:581px;
+}
+.e3_10 { 
+	background-color:rgba(217.0000022649765, 217.0000022649765, 217.0000022649765, 1);
+	width:232px;
+	height:74px;
+	position:absolute;
+	left:809px;
+	top:581px;
+}
+.e2_7 { 
+	color:rgba(0, 0, 0, 1);
+	width:383px;
+	height:61px;
+	position:absolute;
+	left:55px;
+	top:594px;
+	font-family:Inter;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
+.e1_5 { 
+	color:rgba(0, 0, 0, 1);
+	width:1200px;
+	height:50px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Inter;
+	text-align:center;
+	font-size:60px;
+	letter-spacing:0;
+}
+.e3_8 { 
+	color:rgba(0, 0, 0, 1);
+	width:373px;
+	height:71px;
+	position:absolute;
+	left:734px;
+	top:596px;
+	font-family:Inter;
+	text-align:center;
+	font-size:30px;
+	letter-spacing:0;
+}
